@@ -1,0 +1,235 @@
+/*---------------------- de store ---------------------------------*/
+body {
+	max-width:100%;
+}
+header {
+	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	background: #000000;
+	height:140px;
+	width:100%;
+}
+main{
+	width:100%;
+}
+footer {
+	width:100%;
+}
+/*---------------------- de små ---------------------------------*/
+nav {
+	width:100%;
+	height:140px;
+}
+#billedemenu {
+	width:100%;
+	height:800px;
+	background-image:url(../images/wheeltracks.jpg);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	background-size:80%;
+	margin:auto;
+	padding-top:5%;
+	
+}
+#wheel {
+	height:400px;
+	width:100%;
+	background-image:url(../images/wheeltracks.jpg);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	background-size:80%;
+}
+/*---------------------- billeder og icons ---------------------------------*/
+#film1 {
+	width:100%; 
+	height:800px;
+}
+#billedemenu img{
+	height:300px;
+	max-width:75%;
+	border-width:thin;
+	border-color:#555555;
+}
+.billedemenu {
+	float:left;
+	width:20%;
+	display:block;
+	text-align:center;
+	max-height:350px;
+	background-color:#555555;
+	padding:1%;
+	margin:1%;
+}
+.billedemenu1 {
+	float:left;
+	width:20%;
+	display:block;
+	text-align:center;
+	max-height:350px;
+	background-color:#555555;
+	padding:1%;
+	margin:1%;
+	margin-left:15%;
+}
+/*----------------------fra C---------------------------------*/
+#facebook{
+    float: right;
+	padding: 20px 20px 20px 20px;
+}
+
+#footerimg{
+    float: right;
+	width:100%;
+}
+
+.facebook{
+	position:absolute;
+	background-color:#DC0003;
+	
+}
+#kontakt{
+	float:left;
+	background-image:url(../images/footer.png)	
+}
+/*------------------------- livevideo ---------------------------*/
+ #wrapper-livevideo {
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 height:auto;
+	 width:800px;
+}
+#center {
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+ #vejret {
+	 display:block;
+	 margin:0;
+	 height:auto;
+	 width:800px;
+}
+iframe {
+	height:540px; 
+	width:800px;
+}
+#cont_7ebd8c93d55e0e1730eaaab9386b129b {
+	display:block;
+	margin-left:13%;
+}
+#contentWrapper {
+    width: 920px;
+    margin: 0 auto;
+    text-align: left;
+    min-height: 100px;
+}
+/*--------------------tider------------------------------*/
+.ugetal {
+	font-size: 25px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal;
+	color: #000;
+	margin: 0;
+	padding: 5px;
+	text-align:center;
+}
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align:right;
+	width:100%; 
+} 
+.datagrid {
+	width:75%;
+	margin:auto;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 7px solid #000000; 
+	-webkit-border-radius: 150px; 
+	-moz-border-radius: 150px; 
+	border-radius: 150px; 
+}
+.datagrid table td, .datagrid table th { 
+	padding: 9px 50px; 
+}
+.datagrid table tbody td { 
+	color: #000000; 
+	border-left: 2px solid #DBDBDB;
+	font-size: 14px;
+	font-weight: normal; 
+}
+.datagrid table tbody .alt td { 
+	background: #E00002; 
+	color: #000000; 
+}
+.datagrid table tbody td:first-child { 
+	border-left: none; 
+}
+.datagrid table tbody tr:last-child td { 
+	border-bottom: none; 
+}
+/*--------------------------- a --------------------------------*/
+a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a:hover{
+	color:#FF0004;
+}
+#linktilmac {
+	color:#001DFF;
+}
+/*----------------------- H 1-6 --------------------------------*/
+h1 {
+	font-size: 3em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal;
+	color: #000;
+	margin: 0;
+	padding: 10px;
+	text-align:center;
+}
+h2 {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal;
+	color: #00f;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-size: 2em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight:700;
+    color:#fff;
+	background-color:#555555;
+	padding-top:5px;
+}
+h4 {
+	font-size: 1.2em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+h5 {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight:normal;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0px;
+}
+h6 {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: normal;
+	color: #00f;
+	margin: 0;
+	padding: 0;
+}
